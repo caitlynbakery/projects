@@ -23,16 +23,21 @@ function lunch() {
 }
 
 function snack() {
-    var restaurants = [
-        restaurant1,
-        restaurant5
-    ];
-    findRestaurant(restaurants);
+    var snackRestaurants = [];
+    for (var i = 0; i < restaurants.length; i++) {
+        if (restaurants[i].meal == "snack"){
+            snackRestaurants.push(restaurants[i]);
+        }
+    }
+    findRestaurant(snackRestaurants); 
 }
 
 function dinner() {
-    var restaurants = [
-        restaurant3
-    ];
-    findRestaurant(restaurants);
+    var dinnerRestaurants = [];
+    for (var i = 0; i < restaurants.length; i++) {
+        if (restaurants[i].meal == "dinner"){
+            dinnerRestaurants.push(restaurants[i]);
+        }
+    }
+    findRestaurant(dinnerRestaurants);
 }

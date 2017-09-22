@@ -37,5 +37,24 @@ var restaurants = [
     "meal": "snack",
     "favorite": "marshmallow ice cream",
     "img": "img/icecream.jpg",
-    "img2": "img/penny.jpg"}
+    "img2": "img/penny.jpg"},
+
+{
+    "name": "Erik's Deli Cafe",
+    "url": "https://www.yelp.com/biz/eriks-deli-cafe-capitola-3",
+    "meal": "lunch",
+    "favorite": "chicken sandwich",
+    "img": "img/sandwich.jpg",
+    "img2": "img/eriksdeli.jpg"},
+
+{
+    "name": "Cook House",
+    "url": "https://www.yelp.com/biz/the-cook-house-capitola",
+    "meal": "breakfast",
+    "favorite": "waffles with strawberries",
+    "img": "img/waffles.jpg",
+    "img2": "img/cookhouse2.jpg" 
+
+}
+
 ];
