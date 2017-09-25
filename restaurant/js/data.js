@@ -53,8 +53,16 @@ var restaurants = [
     "meal": "breakfast",
     "favorite": "waffles with strawberries",
     "img": "img/waffles.jpg",
-    "img2": "img/cookhouse2.jpg" 
+    "img2": "img/cookhouse2.jpg" },
 
+{
+    "name": "Paradise Beach Grille",
+    "url": "https://www.yelp.com/biz/paradise-beach-grille-capitola",
+    "meal": "dinner",
+    "favorite": "clam chowder",
+    "img": "img/clamchowder.jpg",
+    "img2": "img/paradisebeach.jpg"
 }
+
 
 ];
